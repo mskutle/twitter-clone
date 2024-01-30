@@ -8,7 +8,7 @@ function Avatar(props: Props) {
     <img
       src={props.src}
       alt={props.src}
-      className="rounded-full object-cover w-10 h-10"
+      className="rounded-full object-cover w-8 j-8 sm:w-10 sm:h-10"
     />
   );
 }

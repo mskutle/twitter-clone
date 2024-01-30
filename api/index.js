@@ -139,7 +139,7 @@ __export(root_exports, {
 var import_react3 = require("@remix-run/react");
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-SZAZMJVU.css";
+var tailwind_default = "/build/_assets/tailwind-NPE4IBPR.css";
 
 // app/layout/Nav.tsx
 var import_react2 = require("@remix-run/react"), import_clsx = __toESM(require("clsx")), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
@@ -191,7 +191,7 @@ Nav.Item = NavItem;
 // app/layout/MainNavigation.tsx
 var import_bs = require("react-icons/bs"), import_jsx_dev_runtime3 = require("react/jsx-dev-runtime");
 function MainNavigation() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("aside", { className: "pt-1 sticky top-0 bottom-0 self-start flex flex-col justify-self-end gap-y-8 px-3 md:pl-5 md:pr-8", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("aside", { className: "pt-1 sticky top-0 bottom-0 self-start flex flex-col justify-self-end gap-y-8 px-0.5 sm:px-2 md:pl-5 md:pr-8", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav, { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsTwitter, { className: "text-sky-500 w-7 h-7" }, void 0, !1, {
@@ -214,7 +214,7 @@ function MainNavigation() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsHouse, { className: "w-6 h-6" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsHouse, { className: "w-4 h-4 sm:w-6 sm:h-6" }, void 0, !1, {
           fileName: "app/layout/MainNavigation.tsx",
           lineNumber: 27,
           columnNumber: 13
@@ -234,7 +234,7 @@ function MainNavigation() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/explore", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsHash, { className: "w-6 h-6" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsHash, { className: "w-4 h-4 sm:w-6 sm:h-6" }, void 0, !1, {
           fileName: "app/layout/MainNavigation.tsx",
           lineNumber: 33,
           columnNumber: 13
@@ -254,7 +254,7 @@ function MainNavigation() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/notifications", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsBell, { className: "w-6 h-6" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsBell, { className: "w-4 h-4 sm:w-6 sm:h-6" }, void 0, !1, {
           fileName: "app/layout/MainNavigation.tsx",
           lineNumber: 39,
           columnNumber: 13
@@ -274,7 +274,7 @@ function MainNavigation() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/messages", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsInbox, { className: "w-6 h-6" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsInbox, { className: "w-4 h-4 sm:w-6 sm:h-6" }, void 0, !1, {
           fileName: "app/layout/MainNavigation.tsx",
           lineNumber: 45,
           columnNumber: 13
@@ -294,7 +294,7 @@ function MainNavigation() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/bookmarks", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsBookmark, { className: "w-6 h-6" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsBookmark, { className: "w-4 h-4 sm:w-6 sm:h-6" }, void 0, !1, {
           fileName: "app/layout/MainNavigation.tsx",
           lineNumber: 51,
           columnNumber: 13
@@ -314,7 +314,7 @@ function MainNavigation() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/lists", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsList, { className: "w-6 h-6" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsList, { className: "w-4 h-4 sm:w-6 sm:h-6" }, void 0, !1, {
           fileName: "app/layout/MainNavigation.tsx",
           lineNumber: 57,
           columnNumber: 13
@@ -334,7 +334,7 @@ function MainNavigation() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/profile", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsPerson, { className: "w-6 h-6" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsPerson, { className: "w-4 h-4 sm:w-6 sm:h-6" }, void 0, !1, {
           fileName: "app/layout/MainNavigation.tsx",
           lineNumber: 63,
           columnNumber: 13
@@ -354,7 +354,7 @@ function MainNavigation() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item, { to: "/more", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsThreeDots, { className: "w-6 h-6" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Nav.Item.Icon, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsThreeDots, { className: "w-4 h-4 sm:w-6 sm:h-6" }, void 0, !1, {
           fileName: "app/layout/MainNavigation.tsx",
           lineNumber: 69,
           columnNumber: 13
@@ -378,13 +378,13 @@ function MainNavigation() {
       lineNumber: 18,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("button", { className: "px-3 py-1.5 md:py-3 font-bold text-center text-lg grow bg-sky-500 drop-shadow-xl shadow-blue-50 text-white text-bold flex justify-center items-center rounded-full hover:bg-sky-600", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: "hidden md:block", children: "Tweet" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("button", { className: "self-center w-10 h-10 sm:w-full sm:h-auto sm:px-3 sm:py-1.5 md:py-3 font-bold text-center text-lg grow bg-sky-500 drop-shadow-xl shadow-blue-50 text-white text-bold flex justify-center items-center rounded-full hover:bg-sky-600", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: "hidden md:block", children: "Post" }, void 0, !1, {
         fileName: "app/layout/MainNavigation.tsx",
         lineNumber: 75,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsPencil, { className: "w-6 h-10 md:hidden" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_bs.BsPencil, { className: "w-4 sm:w-6 h-10 md:hidden" }, void 0, !1, {
         fileName: "app/layout/MainNavigation.tsx",
         lineNumber: 76,
         columnNumber: 9
@@ -717,7 +717,7 @@ function Avatar(props) {
     {
       src: props.src,
       alt: props.src,
-      className: "rounded-full object-cover w-10 h-10"
+      className: "rounded-full object-cover w-8 j-8 sm:w-10 sm:h-10"
     },
     void 0,
     !1,
@@ -911,7 +911,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "17fe6dab", entry: { module: "/build/entry.client-BFM5ZEU7.js", imports: ["/build/_shared/chunk-RXAE5TPP.js", "/build/_shared/chunk-DEEJSVC6.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-TUVMCJFR.js", imports: ["/build/_shared/chunk-2VOUFGJX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-N3WKLUEN.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-17FE6DAB.js" };
+var assets_manifest_default = { version: "3b4a0eb1", entry: { module: "/build/entry.client-VM5GJN7W.js", imports: ["/build/_shared/chunk-UKBEJWXS.js", "/build/_shared/chunk-YVDK63B5.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OI5SEOUM.js", imports: ["/build/_shared/chunk-4RHKFHAI.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-4KP2F5ZF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-3B4A0EB1.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { unstable_cssModules: !1, unstable_cssSideEffectImports: !1, unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !0, unstable_vanillaExtract: !1, v2_errorBoundary: !1, v2_meta: !1, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {

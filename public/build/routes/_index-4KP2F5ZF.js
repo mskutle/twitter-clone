@@ -1,15 +1,15 @@
 import {
   require_react_dom
-} from "/build/_shared/chunk-RXAE5TPP.js";
+} from "/build/_shared/chunk-UKBEJWXS.js";
 import {
   BsImage
-} from "/build/_shared/chunk-2VOUFGJX.js";
+} from "/build/_shared/chunk-4RHKFHAI.js";
 import {
   __toESM,
   require_jsx_dev_runtime,
   require_react,
   useLoaderData
-} from "/build/_shared/chunk-DEEJSVC6.js";
+} from "/build/_shared/chunk-YVDK63B5.js";
 
 // app/common/PageHeading.tsx
 var import_react = __toESM(require_react());
@@ -863,7 +863,7 @@ function Avatar(props) {
     {
       src: props.src,
       alt: props.src,
-      className: "rounded-full object-cover w-10 h-10"
+      className: "rounded-full object-cover w-8 j-8 sm:w-10 sm:h-10"
     },
     void 0,
     false,
@@ -1042,4 +1042,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-N3WKLUEN.js.map
+//# sourceMappingURL=/build/routes/_index-4KP2F5ZF.js.map

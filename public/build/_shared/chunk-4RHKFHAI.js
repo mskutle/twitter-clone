@@ -1,7 +1,7 @@
 import {
   __toESM,
   require_react
-} from "/build/_shared/chunk-DEEJSVC6.js";
+} from "/build/_shared/chunk-YVDK63B5.js";
 
 // node_modules/react-icons/lib/esm/iconBase.js
 var import_react2 = __toESM(require_react());
@@ -133,4 +133,4 @@ export {
   BsThreeDots,
   BsTwitter
 };
-//# sourceMappingURL=/build/_shared/chunk-2VOUFGJX.js.map
+//# sourceMappingURL=/build/_shared/chunk-4RHKFHAI.js.map

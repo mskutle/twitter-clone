@@ -1,13 +1,13 @@
 import {
   require_react_dom
-} from "/build/_shared/chunk-RXAE5TPP.js";
+} from "/build/_shared/chunk-UKBEJWXS.js";
 import {
   RemixBrowser,
   __commonJS,
   __toESM,
   require_jsx_dev_runtime,
   require_react
-} from "/build/_shared/chunk-DEEJSVC6.js";
+} from "/build/_shared/chunk-YVDK63B5.js";
 
 // node_modules/react-dom/client.js
 var require_client = __commonJS({
@@ -65,4 +65,4 @@ if (typeof requestIdleCallback === "function") {
 } else {
   setTimeout(hydrate, 1);
 }
-//# sourceMappingURL=/build/entry.client-BFM5ZEU7.js.map
+//# sourceMappingURL=/build/entry.client-VM5GJN7W.js.map

@@ -7501,7 +7501,7 @@ function useLoaderData2() {
   return useLoaderData();
 }
 var LiveReload = false ? () => null : function LiveReload2({
-  port = Number(51460),
+  port = Number(63470),
   timeoutMs = 1e3,
   nonce = void 0
 }) {
@@ -8018,4 +8018,4 @@ export {
   ScrollRestoration2 as ScrollRestoration,
   require_jsx_dev_runtime
 };
-//# sourceMappingURL=/build/_shared/chunk-DEEJSVC6.js.map
+//# sourceMappingURL=/build/_shared/chunk-YVDK63B5.js.map
