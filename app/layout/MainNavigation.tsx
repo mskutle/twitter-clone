@@ -16,7 +16,7 @@ function MainNavigation() {
   return (
     <aside className="pt-1 sticky top-0 bottom-0 self-start flex flex-col justify-self-end gap-y-8 px-0.5 sm:px-2 md:pl-5 md:pr-8">
       <Nav>
-        <Nav.Item to="/">
+        <Nav.Item to="#">
           <Nav.Item.Icon>
             <BsTwitter className="text-sky-500 w-7 h-7" />
           </Nav.Item.Icon>
@@ -28,43 +28,43 @@ function MainNavigation() {
           </Nav.Item.Icon>
           <Nav.Item.Content>Home</Nav.Item.Content>
         </Nav.Item>
-        <Nav.Item to="/explore">
+        <Nav.Item to="#">
           <Nav.Item.Icon>
             <BsHash className="w-4 h-4 sm:w-6 sm:h-6" />
           </Nav.Item.Icon>
           <Nav.Item.Content>Explore</Nav.Item.Content>
         </Nav.Item>
-        <Nav.Item to="/notifications">
+        <Nav.Item to="#">
           <Nav.Item.Icon>
             <BsBell className="w-4 h-4 sm:w-6 sm:h-6" />
           </Nav.Item.Icon>
           <Nav.Item.Content>Notifications</Nav.Item.Content>
         </Nav.Item>
-        <Nav.Item to="/messages">
+        <Nav.Item to="#">
           <Nav.Item.Icon>
             <BsInbox className="w-4 h-4 sm:w-6 sm:h-6" />
           </Nav.Item.Icon>
           <Nav.Item.Content>Messages</Nav.Item.Content>
         </Nav.Item>
-        <Nav.Item to="/bookmarks">
+        <Nav.Item to="#">
           <Nav.Item.Icon>
             <BsBookmark className="w-4 h-4 sm:w-6 sm:h-6" />
           </Nav.Item.Icon>
           <Nav.Item.Content>Bookmarks</Nav.Item.Content>
         </Nav.Item>
-        <Nav.Item to="/lists">
+        <Nav.Item to="#">
           <Nav.Item.Icon>
             <BsList className="w-4 h-4 sm:w-6 sm:h-6" />
           </Nav.Item.Icon>
           <Nav.Item.Content>Lists</Nav.Item.Content>
         </Nav.Item>
-        <Nav.Item to="/profile">
+        <Nav.Item to="#">
           <Nav.Item.Icon>
             <BsPerson className="w-4 h-4 sm:w-6 sm:h-6" />
           </Nav.Item.Icon>
           <Nav.Item.Content>Profile</Nav.Item.Content>
         </Nav.Item>
-        <Nav.Item to="/more">
+        <Nav.Item to="#">
           <Nav.Item.Icon>
             <BsThreeDots className="w-4 h-4 sm:w-6 sm:h-6" />
           </Nav.Item.Icon>

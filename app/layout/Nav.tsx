@@ -21,7 +21,7 @@ const NavItem = (props: { children: ReactNode; to: string }) => (
     {({ isActive }) => (
       <li
         className={clsx(
-          isActive && "font-bold",
+          props.to === "/" && "font-bold",
           "flex items-center justify-center w-max space-x-4 px-3 py-3 rounded-full hover:bg-stone-100"
         )}
       >
