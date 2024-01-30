@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Chirp;
+  font-weight: 400;
+  src: url(/fonts/chirp-regular-web.woff);
+}
+
+@font-face {
+  font-family: Chirp;
+  font-weight: 500;
+  src: url(/fonts/chirp-medium-web.woff);
+}
+
+@font-face {
+  font-family: Chirp;
+  font-weight: 700;
+  src: url(/fonts/chirp-bold-web.woff);
+}
+
+@font-face {
+  font-family: Chirp;
+  font-weight: 900;
+  src: url(/fonts/chirp-heavy-web.woff);
+}
