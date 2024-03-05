@@ -5,26 +5,20 @@ import { TimelineModeSwitcher } from "~/common/Tabs";
 import { Timeline } from "~/Timeline";
 import { TweetComposer } from "~/TweetComposer";
 import type { Tweet } from "~/tweets/tweet";
+import tweets from "../tweets/tweets";
 
 export async function loader() {
-  const tweets: Tweet[] = await fetch(
-    "https://jsonplaceholder.typicode.com/posts"
-  )
-    .then((response) => response.json())
-    .then((posts) => posts.slice(0, 25))
-    .then((posts) =>
-      posts.map((p: any) => ({
-        id: p.id,
-        body: p.body,
-        author: {
-          name: "Magne Skutle",
-          handle: "@mskutle",
-          avatarUrl: "/img/magne.png",
-        },
-      }))
-    );
+  const data: Tweet[] = tweets.map((p: any) => ({
+    id: p.id,
+    body: p.body,
+    author: {
+      name: "Magne Skutle",
+      handle: "@mskutle",
+      avatarUrl: "/img/magne.png",
+    },
+  }));
 
-  return json(tweets);
+  return json(data);
 }
 
 export default function Index() {
